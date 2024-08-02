@@ -22,8 +22,6 @@ var cityTypeOf = typeof city;
 
 console.log("Type of city is:", cityTypeOf);
 
- 
-
 var marks = "93";
 
 console.log("Mark is: ", marks);
