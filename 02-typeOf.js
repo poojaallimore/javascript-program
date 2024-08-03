@@ -5,7 +5,15 @@ console.log("================Step 1=========================");
 
  var bankNameTypeOf=typeof bankName;
 
- console.log("2 Type Of bankName is:",bankName);
+ console.log("1.2 Type Of bankName is:",bankName);
+
+ var bankName="SBI Bank";
+
+ console.log("2 Bank Name is:",bankName);
+
+ var TypeOfBankName=typeof bankName;
+
+ console.log("2.1 Type of Bank Name is:",TypeOfBankName);
 
  console.log("================Step 2=========================");
 
