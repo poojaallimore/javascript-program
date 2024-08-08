@@ -1,5 +1,6 @@
+console.log("=====Function with  one argument and returns================");
 
-console.log("====To find square of word length=================");
+console.log("==== 1. To find square of word length=================");
 
 function squareOfWordLength(sentence) {
     
@@ -43,7 +44,7 @@ function greet(argOne) {
 
     var resultOne=totalLength*len;
 
-    console.log(`2.3. Multiplication of length and total number of words in given string is:${resultOne}`);
+    console.log(`2.2. Multiplication of length and total number of words in given string is:${resultOne}`);
     
     
 
