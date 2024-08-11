@@ -3,9 +3,9 @@ console.log(`===== 1. Count of total numbers of vowels in given string==========
 
 var sentance ="I am very good IT Developer";
 
-    var counter=0;
-
     var vowels="aeiou";
+
+    var counter=0;
 
     for (var index = 0; index < sentance.length; index++) {
        
@@ -13,7 +13,7 @@ var sentance ="I am very good IT Developer";
 
         var lowerCaseLetters=char.toLowerCase();
 
-        if (lowerCaseLetters==vowels && lowerCaseLetters!=" ") {
+        if (vowels.includes(lowerCaseLetters)) {
 
             counter++;
             
