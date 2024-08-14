@@ -46,13 +46,15 @@ for (let index = 0; index < arrayOddNum.length; index++) {
 }
 console.log(`5.Odd number in given array is:${reslt}`);
 
+const arrayOne=[20,31,40,25,23,11,29,9,60,2,11];
+
 let sumEven=0;
 
-for (let index = 0; index < array.length; index++) {
+for (let index = 0; index <= arrayOne.length; index++) {
 
-    const element = array[index];
+    const element = arrayOne[index];
 
-    if (element % 2 == 0) {
+    if (index % 2 == 0) {
         
         sumEven=sumEven+element;
     }
@@ -61,13 +63,15 @@ for (let index = 0; index < array.length; index++) {
 
 console.log(`6.Sum of all even positioned element from array is:${sumEven}`);
 
+const arrayOdd=[20,31,40,25,23,11,29,9,60,2,11];
+
 let sumOdd=0;
 
-for (let index = 0; index < array.length; index++) {
+for (let index = 0; index < arrayOdd.length; index++) {
 
-    const element = array[index];
+    const element = arrayOdd[index];
 
-    if (element % 2 == 1) {
+    if (index % 2 == 1) {
 
         sumOdd=sumOdd+element;
         
@@ -77,11 +81,13 @@ for (let index = 0; index < array.length; index++) {
 
 console.log(`7.Sum of all odd positioned number from array is:${sumOdd}`);
 
+const arrayAddition=[20,31,40,25,23,11,29,9,60,2,11];
+
 let sum=0;
 
-for (let index = 0; index < array.length; index++) {
+for (let index = 0; index < arrayAddition.length; index++) {
 
-    const element = array[index];
+    const element = arrayAddition[index];
 
     sum=sum+element;
     
@@ -89,11 +95,13 @@ for (let index = 0; index < array.length; index++) {
 
 console.log(`8.Sum of all elements from array is:${sum}`);
 
+const arrayMultiple=[20,31,40,25,23,11,29,9,60,2,11];
+
 let multipleOf=[]
 
-for (let index = 0; index < array.length; index++) {
+for (let index = 0; index < arrayMultiple.length; index++) {
 
-    const element = array[index];
+    const element = arrayMultiple[index];
 
     if (element % 5 == 0)  {
         
@@ -116,17 +124,22 @@ let resultIncludes=arrayIncludes.includes(23);
 
 console.log(`11.Is number 23 available in arrayIncludes:${resultIncludes}`);
 
-console.log(`12.Given array is:${array}`);
+const arrayTwo=[20,31,40,25,23,11,29,9,60,2,11];
 
-const insertNum=array.splice(3,0,55,66);
+console.log(`12.Given array is:${arrayTwo}`);
 
-console.log(`12.Insertion of element 55,66 at index 3 in given array:${array} `);
+const insertNum=arrayTwo.splice(3,0,55,66);
 
-console.log(`13.Given array is:${array}`);
+console.log(`12.Insertion of element 55,66 at index 3 in given array:${arrayTwo} `);
 
-let insertNumber=array.splice(4,3);
+// const arrayThree=[20,31,40,25,23,11,29,9,60,2,11];
 
-console.log(`13.Deleted three elements starting from index 4 from given array:${array}`);
+// console.log(`13.Given array is:${arrayThree}`);
+console.log(`13.Given array is:${arrayTwo}`);
+
+let insertNumber=arrayTwo.splice(4,3);
+
+console.log(`13.Deleted three elements starting from index 4 from given array:${arrayTwo}`);
 
 
 
