@@ -67,6 +67,6 @@ function oddPositionedChars(strng) {
    
 }
 
-oddPositionedChars("Hard always pays back");
+oddPositionedChars("Hard work always pays back");
 
 oddPositionedChars("Soon i will be UI IT champ");
