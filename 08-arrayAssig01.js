@@ -33,7 +33,7 @@ var fruits4=["Banana","Orange","Apple","Mango","Water Melon"];
 
 console.log(`Given array is:${fruits4}`);
 
-fruits4.push();
+fruits4.push("Pineapple");
 
 console.log(`Updating an array element:${fruits4} `);
 
@@ -77,8 +77,7 @@ const lengthOfArray=fruits8.slice(fruits8.length-3);
 
 console.log(`Updating an array element:${lengthOfArray}`);
 
-// const lastThreeEle=fruits_seasonal.slice(fruits_seasonal.length-3);
-// console.log(`9.Last three element of array is:${lastThreeEle}`);
+
 
 
 
