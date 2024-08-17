@@ -55,6 +55,21 @@ for (let index = 0; index < arrayList.length; index++) {
     }
 
 }
+ 
+console.log(`===== Sum the array element=====================`);
+
+let arrayTen=[10,20,30,20,10];
+
+let sum=0;
+
+for (const element of arrayTen) {
+    
+    sum=sum+element;
+
+}
+
+console.log(sum);
+
 
 
 
