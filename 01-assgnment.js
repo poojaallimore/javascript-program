@@ -13,6 +13,7 @@ const length2=strng2.length;
 
 console.log(`2.The length of string ${strng2} is:${length2} `);
 
+console.log(`===== 2.2. WAP to print or log the last character of the given strings===========`);
 
 function getLastCharacter(str) {
     
