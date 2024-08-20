@@ -1,6 +1,6 @@
 // Primitive Datatype: Number, String and Boolean
 
-console.log("============= Number Datatype ===============");
+console.log("============= Number Data type ===============");
 
 var age = 22;
 
@@ -12,7 +12,7 @@ console.log("Datatype of age is: ", ageTypeOf);
 
  
 
-console.log("============= String Datatype ===============");
+console.log("============= String Data type ===============");
 
 var city = 'Pune';
 
