@@ -4,8 +4,6 @@ var greet = "Good Morning";
 
 console.log("Given string is: ", greet);
 
- 
-
 var greetLength = greet.length;
 
 console.log("Total number of characters is: ",greetLength);
@@ -16,7 +14,7 @@ var charAt0 = greet.charAt(0);
 
 console.log("Character at index 0 is: ", charAt0);
 
-var char5=great.charAt(5);
+var char5=greet.charAt(5);
 
 console.log("Characters at index 5 : ",char5);
 
