@@ -24,8 +24,6 @@ function vowelsCount(strng) {
 
 let result = vowelsCount("JavaScript");
 
-// console.log(`1.Given string is:${vowelsCount(strng)}`);
-
 console.log(`1.1.Total number of vowels count in given string "JavaScript" is:${result}`);
 
 let result1 =  vowelsCount("HTML and CSS");
