@@ -78,8 +78,6 @@ var dayLength = day.length;
 
 console.log("Before string trim length is: ", dayLength);
 
- 
-
 var dayAfterTrim = day.trim();
 
 var dayAfterTrimLength= dayAfterTrim.length;
