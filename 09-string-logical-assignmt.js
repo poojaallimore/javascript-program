@@ -1,5 +1,5 @@
 
-console.log(`===== 1. WAP to find length of string and total character of  the string================`);
+console.log(`===== 1. WAP to find length of string or total character of  the string================`);
 
 function lengthOfString(string) {
     
