@@ -66,6 +66,7 @@ console.log(`Prime num count is:${count}`);
 console.log(`==== 2 Write a program to count the spaces===================== `);
 
     function spaceCount(strng) {
+        
     let count = 0;
 
     console.log(`Given string is:${strng}`);
