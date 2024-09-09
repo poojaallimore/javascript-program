@@ -20,7 +20,7 @@ console.log(`Given array is:${cubeArray}`);
 
 const newCubeArray = cubeArray.map((element)=> {
 
-    return element*element*element;
+    return element * element * element;
 })
 
 console.log(`Transformed array:${newCubeArray}`);
